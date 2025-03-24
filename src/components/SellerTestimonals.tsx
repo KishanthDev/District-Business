@@ -22,7 +22,7 @@ export const SellerTestimonials = () => {
 
   return (
     <div className="px-20 py-16">
-      <h1 className="text-4xl font-medium mb-20">Seller Testimonials</h1>
+      <h1 className="text-4xl text-orange-800 font-medium mb-20">Seller Testimonials</h1>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {testimonials.map((testimonial, index) => (
@@ -31,13 +31,14 @@ export const SellerTestimonials = () => {
             className="relative bg-white shadow-md border-2 border-gray-300 rounded-lg p-8 text-center flex flex-col items-center"
           >
 
-            <div className="absolute -top-12 w-24 h-24 bg-white rounded-full flex items-center justify-center shadow-lg border-2 border-gray-400">
+            <div className="flex items-center justify-center">
               <Image
                 alt={`Testimonial ${index + 1}`}
-                width={80}
-                height={80}
+                width={150}
+                height={150}
                 src={testimonial.img}
-                className="rounded-full"
+                className="rounded-full absolute -top-12 w-30 h-24"
+                style={{mixBlendMode:"normal"}}
               />
             </div>
 
