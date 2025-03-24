@@ -1,14 +1,6 @@
 import React from "react";
 import { Meta, StoryObj } from "@storybook/react";
-
-const Footer = () => {
-  return (
-    <footer className="text-center p-4 bg-gray-800 text-white">
-      <p>© 2024-2025 District Business Pvt. Ltd. All Rights Reserved.</p>
-      <p>Terms of Use | Contact: support@district-business.com</p>
-    </footer>
-  );
-};
+import { Footer } from "../components/Footer";
 
 const meta: Meta<typeof Footer> = {
   title: "Components/Footer",
