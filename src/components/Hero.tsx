@@ -5,7 +5,7 @@ import Image from "next/image";
 export const Hero = () => {
   return (
     <div className="p-20 flex flex-col lg:flex-row items-center justify-between">
-      {/* Left Section: Text & Buttons */}
+      
       <div className="lg:w-1/2">
         <h1 className="text-5xl font-medium">
           Your Gateway to Commission-Free e-commerce
@@ -22,7 +22,7 @@ export const Hero = () => {
         </div>
       </div>
 
-      {/* Right Section: Image */}
+   
       <div className="lg:w-1/2 flex justify-center mt-10 lg:mt-0">
         <Image
           alt="business"

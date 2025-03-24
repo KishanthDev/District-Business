@@ -19,10 +19,10 @@ const Header = () => {
 
     return (
         <header className="flex justify-between items-center p-4 bg-white shadow-md dark:bg-gray-900 dark:text-white">
-            {/* Logo */}
+            
             <Image style={{mixBlendMode:"darken"}} height={120} width={120} alt="Logo"  src="/logo.png" />
 
-            {/* Navigation Links */}
+           
             <nav className="space-x-6">
                 {links.map((link) => (
                     <a
@@ -39,7 +39,7 @@ const Header = () => {
                 ))}
             </nav>
 
-            {/* Login, Signup, and Dark Mode Toggle */}
+          
             <div className="space-x-2">
                 <DarkModeToggle />
                 <Button variant="blue" className="dark:bg-blue-500 dark:hover:bg-blue-600">Sign Up</Button>
