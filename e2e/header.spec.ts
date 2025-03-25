@@ -16,16 +16,16 @@ test.describe("Header Component", () => {
     await expect(districtText).toBeVisible();
     await districtText.click();
     await expect(page).toHaveURL("/");
-});
+  });
 
- 
+
   test("Dark mode toggle should always be visible", async ({ page }) => {
     await page.goto("/");
 
     const darkModeToggle = page.getByRole("button", { name: "Toggle dark mode" });
 
     await expect(darkModeToggle).toBeVisible();
-});
+  });
 
 
   test("Mobile menu should open and close", async ({ page }) => {
@@ -41,6 +41,6 @@ test.describe("Header Component", () => {
 
     await menuButton.click();
     await expect(menu).not.toBeVisible();
-});
+  });
 
 });
