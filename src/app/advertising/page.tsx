@@ -4,10 +4,14 @@ import React from 'react'
 
 export default function Page() {
   return (
-    <div>
-      <Header/>
-      <h1 className='mb-80 p-4.5 flex justify-center text-4xl font-bold'>Advertising</h1>
-      <Footer/>
+    <div className="min-h-screen flex flex-col">
+      <Header />
+      
+      <main className="flex-grow flex flex-col items-center justify-center">
+        <h1 className="p-4 flex justify-center text-4xl font-bold">Advertising</h1>
+      </main>
+
+      <Footer />
     </div>
   )
 }

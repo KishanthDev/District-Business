@@ -21,31 +21,32 @@ export const SellerTestimonials = () => {
   ];
 
   return (
-    <div className="px-20 py-16">
-      <h1 className="text-4xl text-orange-800 font-medium mb-20">Seller Testimonials</h1>
+    <div className="px-6 sm:px-12 lg:px-20 py-16">
+      <h1 className="text-3xl sm:text-4xl text-orange-800 font-medium text-center mb-16">
+        Seller Testimonials
+      </h1>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="flex flex-col lg:grid lg:grid-cols-3 gap-10">
         {testimonials.map((testimonial, index) => (
           <div
             key={index}
-            className="relative bg-white dark:bg-gray-900 shadow-md border-2 border-gray-300 rounded-lg p-8 text-center flex flex-col items-center"
+            className="relative bg-white dark:bg-gray-900 shadow-md border border-gray-300 rounded-lg p-8 text-center flex flex-col items-center"
           >
+            <Image
+              alt={`Testimonial ${index + 1}`}
+              width={120}
+              height={120}
+              src={testimonial.img}
+              className="rounded-full -mt-14 w-24 h-24 border-4 border-white dark:border-gray-900"
+            />
 
-            <div className="flex items-center justify-center">
-              <Image
-                alt={`Testimonial ${index + 1}`}
-                width={150}
-                height={150}
-                src={testimonial.img}
-                className="rounded-full absolute -top-12 w-30 h-24"
-                style={{mixBlendMode:"normal"}}
-              />
-            </div>
-
-           
-            <div className="mt-16">
-              <p className="text-gray-700 dark:text-gray-300 text-lg italic">{testimonial.text}</p>
-              <h2 className="text-xl font-semibold dark:text-gray-300 text-gray-900 mt-4">{testimonial.name}</h2>
+            <div className="mt-6">
+              <p className="text-gray-700 dark:text-gray-300 text-base sm:text-lg italic">
+                {testimonial.text}
+              </p>
+              <h2 className="text-lg sm:text-xl font-semibold dark:text-gray-300 text-gray-900 mt-4">
+                {testimonial.name}
+              </h2>
             </div>
           </div>
         ))}
