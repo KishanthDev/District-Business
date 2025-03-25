@@ -6,7 +6,7 @@ export const Footer = () => {
   return (
     <footer className="bg-gray-300 dark:bg-gray-900 text-gray-800 dark:text-gray-300 py-6">
       <div className="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between">
-        
+
         <div className="text-center md:text-left">
           <p className="text-lg font-medium">
             © 2024-2025 <span className="font-semibold">District Business.com Pvt. Ltd.</span> All Rights Reserved.
