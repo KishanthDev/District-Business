@@ -6,7 +6,6 @@ export const Hero = () => {
   return (
     <div className="p-6 sm:p-10 lg:p-20 flex flex-col lg:flex-row items-center justify-between">
       
-      {/* Text Content */}
       <div className="w-full lg:w-1/2 text-center lg:text-left">
         <h1 className="text-3xl sm:text-5xl font-medium leading-tight">
           Your Gateway to Commission-Free e-commerce
@@ -25,7 +24,6 @@ export const Hero = () => {
         </div>
       </div>
 
-      {/* Image Section */}
       <div className="w-full lg:w-1/2 flex justify-center mt-10 lg:mt-0">
         <Image
           alt="business"

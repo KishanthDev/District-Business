@@ -37,7 +37,7 @@ export const SellerTestimonials = () => {
               width={120}
               height={120}
               src={testimonial.img}
-              className="rounded-full -mt-14 w-24 h-24 border-4 border-white dark:border-gray-900"
+              className="rounded-full -mt-14 w-30 h-24 border-4 border-white dark:border-gray-900"
             />
 
             <div className="mt-6">
