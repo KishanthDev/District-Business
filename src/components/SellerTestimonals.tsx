@@ -28,7 +28,7 @@ export const SellerTestimonials = () => {
         {testimonials.map((testimonial, index) => (
           <div
             key={index}
-            className="relative bg-white shadow-md border-2 border-gray-300 rounded-lg p-8 text-center flex flex-col items-center"
+            className="relative bg-white dark:bg-gray-900 shadow-md border-2 border-gray-300 rounded-lg p-8 text-center flex flex-col items-center"
           >
 
             <div className="flex items-center justify-center">
@@ -44,8 +44,8 @@ export const SellerTestimonials = () => {
 
            
             <div className="mt-16">
-              <p className="text-gray-700 text-lg italic">{testimonial.text}</p>
-              <h2 className="text-xl font-semibold text-gray-900 mt-4">{testimonial.name}</h2>
+              <p className="text-gray-700 dark:text-gray-300 text-lg italic">{testimonial.text}</p>
+              <h2 className="text-xl font-semibold dark:text-gray-300 text-gray-900 mt-4">{testimonial.name}</h2>
             </div>
           </div>
         ))}

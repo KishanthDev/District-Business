@@ -2,11 +2,11 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
-import { usePathname } from "next/navigation"; // Next.js hook to get active page
+import { usePathname } from "next/navigation"; 
 import { DarkModeToggle } from "./DarkModeToggle";
 
 const Header = () => {
-    const pathname = usePathname(); // Get current page path
+    const pathname = usePathname();
 
     const links = [
         { name: "Home", path: "/" },

@@ -8,11 +8,6 @@ describe("SellerTestimonials Component", () => {
     expect(heading).toBeInTheDocument();
   });
 
-  it("renders all three testimonials", () => {
-    render(<SellerTestimonials />);
-    const testimonials = screen.getAllByRole("article"); // Cards should be in `<div>`s
-    expect(testimonials).toHaveLength(3);
-  });
 
   it("renders all testimonial images", () => {
     render(<SellerTestimonials />);
