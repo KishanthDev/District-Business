@@ -29,6 +29,7 @@ const Header = () => {
             >
              
                 <Image
+                    aria-label="Logo"
                     className="block dark:hidden"
                     style={{ mixBlendMode: "darken" }}
                     height={120}
@@ -36,7 +37,7 @@ const Header = () => {
                     alt="Logo"
                     src="/logo.png"
                 />
-                <span className="hidden dark:block text-blue-500 text-2xl font-bold">
+                <span aria-label="District" className="hidden dark:block text-blue-500 text-2xl font-bold">
                     District
                 </span>
             </div>
@@ -72,6 +73,7 @@ const Header = () => {
                 </div>
 
                 <button
+                    aria-label="Open menu"
                     className="md:hidden p-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-300 dark:focus:ring-gray-600"
                     onClick={() => setIsOpen(!isOpen)}
                 >
