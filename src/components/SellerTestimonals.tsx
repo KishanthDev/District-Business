@@ -34,11 +34,13 @@ export const SellerTestimonials = () => {
           >
             <Image
               alt={`Testimonial ${index + 1}`}
+              src={testimonial.img}
               width={120}
               height={120}
-              src={testimonial.img}
-              className="rounded-full -mt-14 w-30 h-24 border-4 border-white dark:border-gray-900"
+              layout="intrinsic"
+              className="rounded-full -mt-14 border-4 border-white dark:border-gray-900"
             />
+
 
             <div className="mt-6">
               <p className="text-gray-700 dark:text-gray-300 text-base sm:text-lg italic">
