@@ -4,7 +4,7 @@ import { SiFlipkart } from "react-icons/si";
 
 export const Footer = () => {
   return (
-    <footer className="bg-gray-300 dark:bg-gray-900 text-gray-800 dark:text-gray-300 py-6">
+  <footer className="bg-gray-200 pt-5 pb-5 dark:bg-gray-950 text-gray-900 dark:text-gray-100">
       <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-center text-center md:text-left">
 
         <div className="flex flex-col space-y-2">
@@ -36,7 +36,7 @@ export const Footer = () => {
             <SiFlipkart className="text-3xl text-blue-600 dark:text-blue-400 hover:scale-110 transition-transform" />
           </a>
           <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Visit Twitter">
-            <FaTwitter className="text-3xl text-blue-500 dark:text-blue-300 hover:scale-110 transition-transform" />
+          <FaTwitter className="text-3xl text-blue-600 dark:text-blue-400 hover:opacity-90 hover:scale-110" />
           </a>
           <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Visit Instagram">
             <FaInstagram className="text-3xl text-pink-600 dark:text-pink-400 hover:scale-110 transition-transform" />

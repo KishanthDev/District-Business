@@ -22,9 +22,9 @@ export const SellerTestimonials = () => {
 
   return (
     <div className="px-6 sm:px-12 lg:px-20 py-16">
-      <h1 className="text-3xl sm:text-4xl text-orange-800 font-medium text-center mb-16">
-        Seller Testimonials
-      </h1>
+     <h1 className="text-3xl sm:text-4xl text-orange-900 dark:text-orange-300 font-medium text-center mb-16">
+  Seller Testimonials
+</h1>
 
       <div className="flex flex-col lg:grid lg:grid-cols-3 gap-10">
         {testimonials.map((testimonial, index) => (
