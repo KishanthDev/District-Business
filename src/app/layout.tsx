@@ -15,7 +15,9 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "District",
+  description: "Discover District Business - a commission-free e-commerce platform designed to help sellers grow without hidden fees.",
 };
+
 
 export default function RootLayout({
   children,

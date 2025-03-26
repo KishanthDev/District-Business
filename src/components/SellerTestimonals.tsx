@@ -43,10 +43,10 @@ export const SellerTestimonials = () => {
 
 
             <div className="mt-6">
-              <p className="text-gray-700 dark:text-gray-300 text-base sm:text-lg italic">
+              <p className="text-gray-900 dark:text-gray-100 text-base sm:text-lg italic">
                 {testimonial.text}
               </p>
-              <h2 className="text-lg sm:text-xl font-semibold dark:text-gray-300 text-gray-900 mt-4">
+              <h2 className="text-lg sm:text-xl font-semibold dark:text-gray-100 text-gray-900 mt-4">
                 {testimonial.name}
               </h2>
             </div>
