@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","989","Dark mode toggle should always be visible","","Wed Mar 26 12:53:53 IST 2025","passed","Wed Mar 26 12:53:54 IST 2025","Header Component","e2e\header.spec.ts","",""
+"","1618","Mobile menu should open and close","","Wed Mar 26 12:53:54 IST 2025","passed","Wed Mar 26 12:53:56 IST 2025","Header Component","e2e\header.spec.ts","",""
+"","3568","Clicking logo or text navigates to home page","","Wed Mar 26 12:53:49 IST 2025","passed","Wed Mar 26 12:53:52 IST 2025","Header Component","e2e\header.spec.ts","",""

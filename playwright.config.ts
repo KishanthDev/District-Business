@@ -7,4 +7,5 @@ export default defineConfig({
     headless: false,
      // Set to true if running tests in CI/CD
   },
+  reporter:"allure-playwright",
 });
